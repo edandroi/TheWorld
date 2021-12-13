@@ -8,7 +8,6 @@ using System;
  *      TODO:
  *              - player interacting with world
  *              - player interacting with npcs
- *              - version control
  * 
  */ 
 
