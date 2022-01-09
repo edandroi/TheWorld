@@ -1,0 +1,18 @@
+{
+  "passages": [
+    {
+      "text": "Narrator: On a dark, chilly, and gloomy night, Eon waits alone at the train station.",
+      "name": "Intro",
+      "pid": "1",
+      "position": {
+        "x": "412",
+        "y": "186"
+      }
+    }
+  ],
+  "name": "TWC-Story Intro",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.15",
+  "ifid": "8E252E13-BC0B-480D-95AC-253915DC3186"
+}

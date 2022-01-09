@@ -1,0 +1,328 @@
+:: StoryTitle
+TWC-Story1
+
+:: StoryData
+{
+ "ifid": "A6A80A4F-6AD3-4B39-805F-0DC4EA441DC9",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "Intro (Ox)"
+}
+
+:: UserScript [script]
+
+
+
+
+
+:: UserStylesheet [stylesheet]
+
+
+
+
+
+:: Intro (Ox) [START] {"position":"418,93","size":"100,100"}
+(Eon waits at the train station.) 
+There is noone but Eon at the station. 
+It is chilly, gloomy and dark.
+[[Ox| Intro 2 (Ox)]]
+
+:: Stranger {"position":"412,386","size":"100,100"}
+She looks towards where the sound is approaching.
+A silhouette approaching her.
+She turns her head away. Stranger doesn't stop.
+Footsteps coming closer.
+[[Stranger2]]
+
+:: Stranger2 {"position":"412,536","size":"100,100"}
+She looks again towards the stranger. 
+They are wearing a dark jacket, jeans and sneakers. face still in shadows.
+Casual she thinks.
+Stranger keeps walking towards her.
+She looks away.
+[[Hello stranger]]
+
+:: Hello stranger {"position":"411,685","size":"100,100"}
+The footsteps stops next to her. 
+With the corner of her eye, she sees the torn out sneakers and the jeans.
+The stranger sits down next to her.
+(text-colour: "red")["Hello stranger"] says their deep voice.
+[[Eagle|Eagle Hello]]
+[[Ox|Ox Hello]]
+
+:: Eagle Hello {"position":"268,782","size":"100,100"}
+Hello? Can I help you?
+(text-colour: "red")[You can help yourself, replies the stranger, with a big alligator smile on his face.]
+[[Eagle | Eagle Convo 1]]
+[[Ox |Ox Hello]]
+
+:: Ox Hello {"position":"646,807","size":"100,100"}
+Eon is freaking out. Why is this dude acting so weird?
+She gets up and walks away without saying anything.
+[[Ox|Ox Convo 1]]
+
+:: Ox Convo 1 {"position":"795,890","size":"100,100"}
+As she is walking away, she hears the deep voice again.
+(text-colour: "red")["There is no reason to be scared"] it says. (text-colour: "red")["As long as you prove to be sharp."]
+At that point she starts running towards the exit.
+[[Ox|Ox Exit Door]]
+
+:: Ox Exit Door {"position":"795,1041","size":"100,100"}
+The stranger is suddenly at the exit door. 
+Eon is in shock.
+(text-colour: "red")["I told you not to be scared"] it says with an alligator smile.
+[[Ox|Ox Run]]
+[[Lion|Lion Convo 1]]
+
+:: Ox Run {"position":"587,1093","size":"100,100"}
+Eon turns back and runs towards the other exit as fast as she can.
+[[Ox|Ox Exit Door]]
+
+:: Lion Convo 1 {"position":"871,1177","size":"100,100"}
+"Just fucking let me go!" Eon yells.
+"If I were you, I'd listen to me. Or there would be consequences"
+[[Ox|Ox Run]]
+[[Lion|Lion Convo 2]]
+
+::  Intro 2 (Ox) {"position":"435,233","size":"100,100"}
+Eon gets chills. She doesn't like being alone.
+I wish there was someone waiting with me.
+Then she hears footsteps.
+[[Stranger]]
+
+:: Lion Convo 2 {"position":"822,1345","size":"100,100"}
+"What the fuck you want?"
+(text-colour: "red")["I have a riddle for you"]
+"What?"
+(text-colour: "red")["A riddle"]
+[[Human|Human What's a riddle]]
+[[Ox|Ox Ask the riddle]]
+
+:: Human What's a riddle {"position":"444,1333","size":"100,100"}
+"I don't know what riddle means"
+Stranger looks confused. (text-colour: "red")["Are you from fucking Mars? How do you not know what riddles are?"]
+"I just don't man. Sorry."
+(text-colour: "red")["Oh man..." ]He looks exhausted.(text-colour: "red")["Okay, I'll just explain then. It's like a puzzle you solve."]
+[[Human|Human What's a puzzle]]
+[[Ox|Ox Run]]
+
+:: Ox Ask the riddle {"position":"598,1377","size":"100,100"}
+Okay tell me, Eon says
+The Alligator smile grows bigger.
+(text-colour: "red")[Okay here it comes...]
+[[Ox |Riddle asked]]
+
+:: Human What's a puzzle {"position":"285,1414","size":"100,100"}
+"Okay but what's a puzzle?"
+(text-colour: "red")["What?"]
+"I don't know what that means."
+(text-colour: "red")["Are you fucking kidding me?"]
+"Why would I do that?"
+(text-colour: "red")["I'll tell you something and you'll try to guess what I mean!"]
+"Oh okay, it's a guessing game. But..."
+(text-colour: "red")["QUIET NOW!"]
+[[Human |Riddle asked]]
+
+:: Riddle asked {"position":"433,1555","size":"100,100"}
+(text-colour: "red")[Yes it is. So here it comes:
+What is something that you get to keep after you give it to someone? Take you time because if you fail, there will be consequences.]
+[[Human | Human thinks]]
+[[Ox | Ox thinks]]
+[[Eagle | Eagle Thinks]]
+
+::  Human thinks {"position":"441,1768","size":"100,100"}
+Hmm, It can be multiple things Eon thought.
+[[Ox | Ox Riddle 1]]
+[[ Human | Human Riddle 1]]
+
+::  Human Guess 2 {"position":"292,2198","size":"100,100"}
+Wait a minute! That's just cheating man, not cool. It is my turn to ask you one now!
+(text-colour: "red")[You?] Stranger looks suspicious.
+Yes, it's your turn to guess now.
+[[Human | Human asks riddle]]
+[[Eagle | Eagle guess queen]]
+
+::  Eagle guess queen {"position":"387,2332","size":"100,100"}
+Double-click this passage to edit it.
+
+::  Ox Riddle 1 {"position":"745,1878","size":"100,100"}
+Eon thinks. But it is quite hard cause she is hella pressed.
+What is something that you get to keep after giving it?...
+I'm sorry Eon says with a very low voice, do you mind repeating the riddle again?
+[[Ox | Ox Riddle 2]]
+
+::  Eagle Answer water {"position":"1035,1888","size":"100,100"}
+Double-click this passage to edit it.
+
+
+::  Ox Riddle 2 {"position":"799,2034","size":"100,100"}
+Stranges looks disappointed. He repeats rolling his eyes:
+(text-colour: "red")[What is something that you get to keep after you give it to someone?]
+Yes yes, says Eon blushing. I just need to think a little.
+It sounds like, hmm, love probably, she thinks. You gotta have love to be able to give it someone. The more you give, the more you have? I mean, that's what they say...
+[[Ox | Ox Answer Love 1]]
+[[Human | Human Riddle 1]]
+
+::  Ox Answer Love 1 {"position":"810,2183","size":"100,100"}
+But what if it is not? There will be consequences he said.
+She looks at the stranger. He is playing with his phone. He looks impatient tapping on the floor with this foot.
+What can the consequence be? she asks herself. I guess something bad.
+She looks at him again. It looks like he is just checking his messages.
+He looks like a normal person. Hmm. But this is definitely not a normal situation or act.
+(text-colour: "red")["Ehem"] the stranger interrupts, (text-colour: "red")["you still there? It's getting late"]
+Yes, just one more minute she says. 
+[[Ox | Ox Answer Love 2]]
+[[Eagle | Eagle Answer Water 1]]
+
+::  Ox Answer Love 2 {"position":"717,2341","size":"100,100"}
+It has to be love, she thinks, or at least nothing else comes to mind.
+Eon takes a deep breath.
+Okay, I'd guess it's love, she says with a hesitant voice.
+[[Ox | Ox Answer Love 3]]
+
+::  Eagle Answer Water 1 {"position":"911,2343","size":"100,100"}
+Double-click this passage to edit it.
+
+::  Ox thinks {"position":"888,1757","size":"100,100"}
+Eon feels the tension rising. What kind of consequences she asks with a whisper.
+It is useless to discuss it at this point. Just think.
+[[Ox | Ox Riddle 1]]
+[[Eagle | Eagle Answer water]]
+
+::  Human asks riddle {"position":"196,2338","size":"100,100"}
+What is it that given one, you'll have either two or none?
+Stranger looks extremly bitter. No more smile.
+Think carefully, Eon adds. Remember, there will be consequences.
+[[Human | Human Escape 1]]
+
+::  Human Escape 1 {"position":"195,2461","size":"100,100"}
+The alligator face is murmuring. Thinking very deep, it seems like. 
+Eon walks to the Exit door slowly.
+The moment she steps by the door step, sirens break out.
+[[Human | Human Escape 2]]
+
+::  Human Escape 2 {"position":"196,2594","size":"100,100"}
+Alligator dude turns towards Eon. His eyes are burning flames. He looks scary.
+"YOU THINK YOU CAN FOOL ME? ME?" Starts floating towards her.
+Oh shit, is all Eon can say. 
+[[Ox | Ox Esc1]]
+[[Eagle | Eagle Esc1]]
+
+::  Ox Esc1 {"position":"117,2732","size":"100,100"}
+Double-click this passage to edit it.
+
+::  Eagle Esc1 {"position":"284,2732","size":"100,100"}
+Double-click this passage to edit it.
+
+::  Human Riddle 1 {"position":"431,1994","size":"100,100"}
+Eon thinks.
+Sounds like STD's fits this definition perfectly. You still keep them after you give it to someone.
+[[Human | Human Guess 1]]
+[[Ox | Ox Riddle 1]]
+
+::  Human Guess 1 {"position":"295,2067","size":"100,100"}
+Okay, I think it's STD's
+The stranger looks surprised. (text-colour: "red")["Ehmm..."]
+What? You give them and still keep them.
+(text-colour: "red")["I guess that's true"] stranger says in suspicion. (text-colour: "red")["But that was not the answer I expected. So, I'll ask another now."]
+[[Human | Human Guess 2]]
+
+::  Ox Answer Love 3 {"position":"699,2482","size":"100,100"}
+(text-colour: "red")[oooh, aren't you a sweetheart], alligator smiles with compassion.
+(text-colour: "red")[But that's not correct unfortunately.You can totally love and then open up to someone. And lose it afterwards because they are actually a piece of shit!]
+Eon: Argh, sounds like you have some shit going on.
+(text-colour: "red")[Anyway, you failed! You'll face the consequences.]
+And the stranger disappears, boom!
+[[Ox | Ox Announcement ]]
+
+::  Ox Announcement  {"position":"698,2632","size":"100,100"}
+Eon is shaking. Holy shit, what's gonna happen now?
+Then she hears speakers turned on. 
+(text-colour: "red")[TO GET OUT YOU GOTTA EAT THE EXIT WHOLE DOOR. DON'T TRY TO CHEAT, IT WON'T WORK.]
+The door? she looks back in confusion.
+[[Ox | Ox Turnip 1]]
+[[Eagle | Eagle Turnip 1]]
+
+::  Ox Turnip 1 {"position":"619,2781","size":"100,100"}
+And that's not what she expected.
+She sees a giant turnip covering the exit door.
+Holy shit, that's definitely not what I expected.
+(text-colour: "red")[AND IT'S A BITTER ONE. HAHAHA.]
+[[Ox | Ox Turnip 2]]
+
+::  Ox Turnip 2 {"position":"615,2932","size":"100,100"}
+Okay, I can eat turnip. Whatever.
+She bites the turnip.
+It is hard, and bitter just like he said.
+[[Ox | Ox Turnip 3]]
+
+::  Ox Turnip 3 {"position":"609,3083","size":"100,100"}
+Double-click this passage to edit it.
+
+::  Eagle Turnip 1 {"position":"799,2785","size":"100,100"}
+This is really stupid, she thinks. I am not trying to get out. I'm waiting to get on my train!
+I should just pretend to eat it until my train arrives, which can be any minute.
+(text-colour: "red")[GO AHEAD] Stranger keeps talking.
+[[Eagle | Eagle Turnip 2]]
+
+::  Eagle Turnip 2 {"position":"799,2935","size":"100,100"}
+Eon takes a very small bite of the turnip.
+(text-colour: "red")[WOW YOU ARE A SLOW EATER]
+Eon shouts: Wow I am so full, I think I need a break.
+[[Eagle | Eagle Turnip 3]]
+
+::  Eagle Turnip 3 {"position":"799,3085","size":"100,100"}
+As she hears the train approaching, she gets back to eating again.
+(text-colour: "red")[GOTTA EAT FASTER]
+
+::  Eagle Convo 1 {"position":"187,940","size":"100,100"}
+Why do you talk to me like that? What do you want?
+(text-colour: "red")[I have a riddle for you. I want you to make a guess. If you guess right, you'll be fine. If not, there will be consequences.]
+[[Eagle | Eagle Convo 2]]
+[[Ox |Ox Hello]]
+[[Human |Human What's a riddle]]
+
+::  Eagle Convo 2 {"position":"176,1107","size":"100,100"}
+What if I say no?
+Then you'll lose by default and face the consequences.
+And what are those?
+I cannot tell, that's a surprise.
+[[Ox |Ox Ask the riddle]]
+[[Human |Human What's a riddle]]
+[[Eagle |Eagle Convo 3]]
+[[Lion |Lion Convo 2]]
+
+:: Eagle Convo 3 {"position":"127,1275","size":"100,100"}
+And may I ask who you are?
+Strangers smile grows deeper.
+I am the riddle master. I am ancient.
+I think I know who you are.
+Is that so? Then tell me my name!
+[[Eagle |Eagle Convo 4]]
+
+:: Eagle Convo 4 [flower] {"position":"109,1426","size":"100,100"}
+You are Syphinx, master of riddles and father of terror.
+I have to admit, no one called me by that in a very long time. You impressed me girl. 
+And I guess you'll eat me if I guess incorrectly?
+No, not anymore. I developed reflux over the years. But I have other methods of terror. Anyway, as you know by now there is no other option for you to answer my riddle. Are you ready?
+[[Eagle |Riddle asked]]
+
+::  Eagle Thinks {"position":"190,1603","size":"100,100"}
+Interesting... Multiple things come to mind.
+[[Ox | Ox Riddle 1]]
+[[ Human | Human Riddle 1]]
+[[Eagle | Eagle Riddle 1]]
+
+::  Eagle Riddle 1 {"position":"127,1762","size":"100,100"}
+This dude must be super old. It might be a lame word play.
+So it can be an advise or word. But technically you don't need to keep any of those after giving them.
+[[Human | Human Guess 1]]
+[[Ox | Ox Riddle 1]]
+[[Eagle |Eagle Guess 1]]
+
+:: Eagle Guess 1 {"position":"87,1917","size":"100,100"}
+I guess you are expected to keep your word after you give it.
+Considering this dude's age, it's probably something old fashioned like that. I'll go for it, at least I won't get eaten.
+My guess is "word" Eon said finally.

@@ -173,6 +173,7 @@ public class DialogueObject
                 nodes[curNode.title] = curNode;
             }
         }
+
     }
 }
 
