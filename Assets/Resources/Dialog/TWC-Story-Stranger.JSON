@@ -1,0 +1,800 @@
+{
+  "passages": [
+    {
+      "text": "Stranger: Hello, stranger...\n[[Hello? Can I help you?]]\n[[...]]\n",
+      "links": [
+        {
+          "name": "Hello? Can I help you?",
+          "link": "Hello? Can I help you?",
+          "pid": "3"
+        },
+        {
+          "name": "...",
+          "link": "...",
+          "pid": "2"
+        }
+      ],
+      "name": "Stranger Intro",
+      "pid": "1",
+      "position": {
+        "x": "355",
+        "y": "178"
+      }
+    },
+    {
+      "text": "Stranger: There's no reason to be scared...As long as you prove to be sharp.\n[[uhm...]]",
+      "links": [
+        {
+          "name": "uhm...",
+          "link": "uhm...",
+          "pid": "4"
+        }
+      ],
+      "name": "...",
+      "pid": "2",
+      "position": {
+        "x": "477",
+        "y": "322"
+      }
+    },
+    {
+      "text": "Stranger: I have a riddle for you. I want to make a guess. If you guess right, you'll be fine.If not, there will be consequences.\n[[Why do you talk to me like that? What do you want?]]\n[[...]]\n[[I don't know what riddle means.]]",
+      "links": [
+        {
+          "name": "Why do you talk to me like that? What do you want?",
+          "link": "Why do you talk to me like that? What do you want?",
+          "pid": "10"
+        },
+        {
+          "name": "...",
+          "link": "...",
+          "pid": "2"
+        },
+        {
+          "name": "I don't know what riddle means.",
+          "link": "I don't know what riddle means.",
+          "pid": "9"
+        }
+      ],
+      "name": "Hello? Can I help you?",
+      "pid": "3",
+      "position": {
+        "x": "168",
+        "y": "251"
+      }
+    },
+    {
+      "text": "Stranger: Don't be scared\n[[uhh...]]\n[[JUST FUCKING LET ME GO!]]",
+      "links": [
+        {
+          "name": "uhh...",
+          "link": "uhh...",
+          "pid": "5"
+        },
+        {
+          "name": "JUST FUCKING LET ME GO!",
+          "link": "JUST FUCKING LET ME GO!",
+          "pid": "6"
+        }
+      ],
+      "name": "uhm...",
+      "pid": "4",
+      "position": {
+        "x": "582",
+        "y": "471"
+      }
+    },
+    {
+      "text": "Stranger: I told you not to be scared\n[[AH!]]",
+      "links": [
+        {
+          "name": "AH!",
+          "link": "AH!",
+          "pid": "7"
+        }
+      ],
+      "name": "uhh...",
+      "pid": "5",
+      "position": {
+        "x": "432",
+        "y": "668"
+      }
+    },
+    {
+      "text": "Stranger: If I were you, I'd listen to me or there will be...consequences\n[[uhh...]]\n[[What the fuck do you want?]]",
+      "links": [
+        {
+          "name": "uhh...",
+          "link": "uhh...",
+          "pid": "5"
+        },
+        {
+          "name": "What the fuck do you want?",
+          "link": "What the fuck do you want?",
+          "pid": "8"
+        }
+      ],
+      "name": "JUST FUCKING LET ME GO!",
+      "pid": "6",
+      "position": {
+        "x": "659",
+        "y": "656"
+      }
+    },
+    {
+      "text": "Stranger: I told you not to be scared\n[[uhm...]]\n[[Just fucking let me go!]]\n// The stranger is suddenly at the exit door. Stranger has alligator smile\n// Eon is in shock.",
+      "links": [
+        {
+          "name": "uhm...",
+          "link": "uhm...",
+          "pid": "4"
+        },
+        {
+          "name": "Just fucking let me go!",
+          "link": "Just fucking let me go!",
+          "pid": "33"
+        }
+      ],
+      "name": "AH!",
+      "pid": "7",
+      "position": {
+        "x": "371",
+        "y": "1077"
+      }
+    },
+    {
+      "text": "Stranger: I have a riddle for you.\nEon: What?\nStranger: A riddle.\n[[I don't know what riddle means.]]\n[[Okay, tell me.]]",
+      "links": [
+        {
+          "name": "I don't know what riddle means.",
+          "link": "I don't know what riddle means.",
+          "pid": "9"
+        },
+        {
+          "name": "Okay, tell me.",
+          "link": "Okay, tell me.",
+          "pid": "12"
+        }
+      ],
+      "name": "What the fuck do you want?",
+      "pid": "8",
+      "position": {
+        "x": "658",
+        "y": "908"
+      }
+    },
+    {
+      "text": "Stranger: ...\nStranger: Are you from fucking Mars? How do you not know what riddles are?\nEon: I just don't man. Sorry.\nStranger: *sigh* OKay, I'll just explain then. It's like a puzzle you solve.\n[[Okay, but what's a puzzle?]]\n[[uhm...]]",
+      "links": [
+        {
+          "name": "Okay, but what's a puzzle?",
+          "link": "Okay, but what's a puzzle?",
+          "pid": "16"
+        },
+        {
+          "name": "uhm...",
+          "link": "uhm...",
+          "pid": "4"
+        }
+      ],
+      "name": "I don't know what riddle means.",
+      "pid": "9",
+      "position": {
+        "x": "308",
+        "y": "528"
+      }
+    },
+    {
+      "text": "Stranger: I have a riddle for you. I want you to make a guess.\nEon:...\nStranger: If you guess right, you'll be fine. If not, there will be consequences.\n[[What if I say no?]]\n[[...]]\n[[I don't know what riddle means.]]",
+      "links": [
+        {
+          "name": "What if I say no?",
+          "link": "What if I say no?",
+          "pid": "11"
+        },
+        {
+          "name": "...",
+          "link": "...",
+          "pid": "2"
+        },
+        {
+          "name": "I don't know what riddle means.",
+          "link": "I don't know what riddle means.",
+          "pid": "9"
+        }
+      ],
+      "name": "Why do you talk to me like that? What do you want?",
+      "pid": "10",
+      "position": {
+        "x": "80",
+        "y": "439"
+      }
+    },
+    {
+      "text": "Stranger: Then you'll lose by default and face the consequences.\nEon: And what are those?\nStranger: I cannot tell. That's a surprise.\n[[Okay, tell me.]]\n[[I don't know what riddle means.]]\n[[And may I ask who you are?]]\n[[What the fuck do you want?]]",
+      "links": [
+        {
+          "name": "Okay, tell me.",
+          "link": "Okay, tell me.",
+          "pid": "12"
+        },
+        {
+          "name": "I don't know what riddle means.",
+          "link": "I don't know what riddle means.",
+          "pid": "9"
+        },
+        {
+          "name": "And may I ask who you are?",
+          "link": "And may I ask who you are?",
+          "pid": "13"
+        },
+        {
+          "name": "What the fuck do you want?",
+          "link": "What the fuck do you want?",
+          "pid": "8"
+        }
+      ],
+      "name": "What if I say no?",
+      "pid": "11",
+      "position": {
+        "x": "90",
+        "y": "666"
+      }
+    },
+    {
+      "text": "Stranger: Okay, here it comes...\n[[Ok.]]",
+      "links": [
+        {
+          "name": "Ok.",
+          "link": "Ok.",
+          "pid": "15"
+        }
+      ],
+      "name": "Okay, tell me.",
+      "pid": "12",
+      "position": {
+        "x": "324",
+        "y": "942"
+      }
+    },
+    {
+      "text": "Stranger: I am the riddle master. I am ancient.\nEon: I think I know who you are.\nStranger: Is that so? Then tell me my name.\n[[You are a Sphynix, master of riddles and father of terror.]]",
+      "links": [
+        {
+          "name": "You are a Sphynix, master of riddles and father of terror.",
+          "link": "You are a Sphynix, master of riddles and father of terror.",
+          "pid": "14"
+        }
+      ],
+      "name": "And may I ask who you are?",
+      "pid": "13",
+      "position": {
+        "x": "47",
+        "y": "833"
+      }
+    },
+    {
+      "text": "Stranger: I have to admit, no one called me by that in a very long time. You impressed me girl.\nEon: And I guess you'll eat me if I guess incorrectly?\nStranger: No, not anymore. I developed acid reflux over the years, but I have other methods of terror. Anyway, as you know by now there is no other option for you to answer my riddle. Are you ready?\n[[Ok.]]",
+      "links": [
+        {
+          "name": "Ok.",
+          "link": "Ok.",
+          "pid": "15"
+        }
+      ],
+      "name": "You are a Sphynix, master of riddles and father of terror.",
+      "pid": "14",
+      "position": {
+        "x": "26",
+        "y": "1117"
+      }
+    },
+    {
+      "text": "Stranger: What is something that you get to keep after you give it to someone?\nStranger: Take your time because if you fail, there will be consequences.\n[[uhmm...]]\n[[What kind of consequences?]]\n[[hmmm...]]",
+      "links": [
+        {
+          "name": "uhmm...",
+          "link": "uhmm...",
+          "pid": "17"
+        },
+        {
+          "name": "What kind of consequences?",
+          "link": "What kind of consequences?",
+          "pid": "18"
+        },
+        {
+          "name": "hmmm...",
+          "link": "hmmm...",
+          "pid": "19"
+        }
+      ],
+      "name": "Ok.",
+      "pid": "15",
+      "position": {
+        "x": "206",
+        "y": "1190"
+      }
+    },
+    {
+      "text": "Stranger: ...What?\nEon: I don't know what that means.\nStranger: Are you fucking kidding me?\nEon: Why would I do that?\nStranger: I'll tell you something and you'll try to guess what I mean.\nEon: Oh okay, it's a guessing gmae, but...\nStranger: QUIET NOW!\n[[Ok.]]",
+      "links": [
+        {
+          "name": "Ok.",
+          "link": "Ok.",
+          "pid": "15"
+        }
+      ],
+      "name": "Okay, but what's a puzzle?",
+      "pid": "16",
+      "position": {
+        "x": "251",
+        "y": "837"
+      }
+    },
+    {
+      "text": "Eon: ...\n[[//What's something that you keep after giving it?//]]\n[[ermm...]]\n[[//This dude must be super old.// ]]",
+      "links": [
+        {
+          "name": "//What's something that you keep after giving it?//",
+          "link": "//What's something that you keep after giving it?//",
+          "pid": "20"
+        },
+        {
+          "name": "ermm...",
+          "link": "ermm...",
+          "pid": "21"
+        },
+        {
+          "name": "//This dude must be super old.// ",
+          "link": "//This dude must be super old.// ",
+          "pid": "22"
+        }
+      ],
+      "name": "uhmm...",
+      "pid": "17",
+      "position": {
+        "x": "0",
+        "y": "1417"
+      }
+    },
+    {
+      "text": "Eon: //It's useless to discuss is at this point. Just think.//\n[//What's something that you keep after giving it?//]]\n[[ermm...]]\n[[//This dude must be super old.// ]]",
+      "links": [
+        {
+          "name": "ermm...",
+          "link": "ermm...",
+          "pid": "21"
+        },
+        {
+          "name": "//This dude must be super old.// ",
+          "link": "//This dude must be super old.// ",
+          "pid": "22"
+        }
+      ],
+      "name": "What kind of consequences?",
+      "pid": "18",
+      "position": {
+        "x": "222",
+        "y": "1336"
+      }
+    },
+    {
+      "text": "Eon: ...\n[[//What's something that you keep after giving it?//]]\n[[ermm...]]\n[[//This dude must be super old.// ]]",
+      "links": [
+        {
+          "name": "//What's something that you keep after giving it?//",
+          "link": "//What's something that you keep after giving it?//",
+          "pid": "20"
+        },
+        {
+          "name": "ermm...",
+          "link": "ermm...",
+          "pid": "21"
+        },
+        {
+          "name": "//This dude must be super old.// ",
+          "link": "//This dude must be super old.// ",
+          "pid": "22"
+        }
+      ],
+      "name": "hmmm...",
+      "pid": "19",
+      "position": {
+        "x": "414",
+        "y": "1367"
+      }
+    },
+    {
+      "text": "Eon: //...//\nEon: I'm sorry, do you mind repeating the riddle again?\n[[Sorry...]]",
+      "links": [
+        {
+          "name": "Sorry...",
+          "link": "Sorry...",
+          "pid": "26"
+        }
+      ],
+      "name": "//What's something that you keep after giving it?//",
+      "pid": "20",
+      "position": {
+        "x": "14",
+        "y": "1794"
+      }
+    },
+    {
+      "text": "Eon: //Sounds like STDs fits this definition perfectly. You still keep them after you give it to someone!//\n[[Okay, I think it's STDs]]\n[[//What's something that you keep after giving it?//]]",
+      "links": [
+        {
+          "name": "Okay, I think it's STDs",
+          "link": "Okay, I think it's STDs",
+          "pid": "23"
+        },
+        {
+          "name": "//What's something that you keep after giving it?//",
+          "link": "//What's something that you keep after giving it?//",
+          "pid": "20"
+        }
+      ],
+      "name": "ermm...",
+      "pid": "21",
+      "position": {
+        "x": "230",
+        "y": "1576"
+      }
+    },
+    {
+      "text": "Eon: //It might be a lame word play.//\nEon: So it can be advice or word. But technically you don't need to keep any of those after giving them.\n[[Okay, I think it's STDs]]\n[[//What's something that you keep after giving it?//]]\n[[//I guess you are expected to keep your word after you give it.//]]",
+      "links": [
+        {
+          "name": "Okay, I think it's STDs",
+          "link": "Okay, I think it's STDs",
+          "pid": "23"
+        },
+        {
+          "name": "//What's something that you keep after giving it?//",
+          "link": "//What's something that you keep after giving it?//",
+          "pid": "20"
+        },
+        {
+          "name": "//I guess you are expected to keep your word after you give it.//",
+          "link": "//I guess you are expected to keep your word after you give it.//",
+          "pid": "24"
+        }
+      ],
+      "name": "//This dude must be super old.// ",
+      "pid": "22",
+      "position": {
+        "x": "427",
+        "y": "1585"
+      }
+    },
+    {
+      "text": "Stranger: Ehmmm...\nEon: What? You give them and still keep them.\nStranger: I guess that's true...\nStranger: But that was not the answer I expected. So, I'll ask another now.\n[[Wait a minute!]]",
+      "links": [
+        {
+          "name": "Wait a minute!",
+          "link": "Wait a minute!",
+          "pid": "25"
+        }
+      ],
+      "name": "Okay, I think it's STDs",
+      "pid": "23",
+      "position": {
+        "x": "352",
+        "y": "1758"
+      }
+    },
+    {
+      "text": "Eon: //Considering this dude's age, it's probably something old fashioned like that. I'll go for it, at least I won't get eaten.//\nEon: My guess is \"word\".",
+      "name": "//I guess you are expected to keep your word after you give it.//",
+      "pid": "24",
+      "position": {
+        "x": "514",
+        "y": "1728"
+      }
+    },
+    {
+      "text": "Eon: That's just cheating man, not cool!\nEon: It's my turn to ask you one now!\nStranger: You?\nEon: Yes, it's your turn to guess now.\n[[Listen up!]]\n[[Queen]]\n",
+      "links": [
+        {
+          "name": "Listen up!",
+          "link": "Listen up!",
+          "pid": "31"
+        },
+        {
+          "name": "Queen",
+          "link": "Queen",
+          "pid": "32"
+        }
+      ],
+      "name": "Wait a minute!",
+      "pid": "25",
+      "position": {
+        "x": "364",
+        "y": "1879"
+      }
+    },
+    {
+      "text": "Stranger: *sigh* What is something that you get to keep after you give it to someone?\nEon: Yes yes *blush* I just needed to think a little. It sounds like, hmmm...\nEon: Love probably. You gotta have love to be able to give it to someone. The more you give, the more you have?\nEon: I mean, that's what they say...\n[[It's love]]\n[[ermm...]]\n",
+      "links": [
+        {
+          "name": "It's love",
+          "link": "It's love",
+          "pid": "27"
+        },
+        {
+          "name": "ermm...",
+          "link": "ermm...",
+          "pid": "21"
+        }
+      ],
+      "name": "Sorry...",
+      "pid": "26",
+      "position": {
+        "x": "160",
+        "y": "1969"
+      }
+    },
+    {
+      "text": "Stranger: But what if it is not? There will be consequences.\nEon: //What can the consequence be? I guess something bad.//\nEon: //He looks like a normal person. Hmmm...but this is definitely not a normla situation...//\nStranger: *Ehemmm* You still there? It's getting late.\nEon: Yeah, just one more minute.\n[[//It has to be love//]]\n[[Water]]\n",
+      "links": [
+        {
+          "name": "//It has to be love//",
+          "link": "//It has to be love//",
+          "pid": "28"
+        },
+        {
+          "name": "Water",
+          "link": "Water",
+          "pid": "29"
+        }
+      ],
+      "name": "It's love",
+      "pid": "27",
+      "position": {
+        "x": "14",
+        "y": "2094"
+      }
+    },
+    {
+      "text": "Eon: //It has to be love, or at least nothing else comes to mind.//\nEon: Okay, I'd guess it's love.\n[[(Ox Answer Love 3)]]",
+      "links": [
+        {
+          "name": "(Ox Answer Love 3)",
+          "link": "(Ox Answer Love 3)",
+          "pid": "30"
+        }
+      ],
+      "name": "//It has to be love//",
+      "pid": "28",
+      "position": {
+        "x": "0",
+        "y": "2244"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Water",
+      "pid": "29",
+      "position": {
+        "x": "120",
+        "y": "2244"
+      }
+    },
+    {
+      "text": "Stranger: Ooooh, aren't you a sweetheart. //alligator smiles with compassion.\nStranger: But that's not correct unfortunately. You can totally love and then open up to someone, and lose it afterwards because they are actually a piece of shit!\nEon: Argh, sounds lick you have some shit going on.\nStranger: Anyway, you failed! You'll face the consequences. // And the stranger disappears, boom!\n[[(Ox Announcement)]]",
+      "links": [
+        {
+          "name": "(Ox Announcement)",
+          "link": "(Ox Announcement)",
+          "pid": "34"
+        }
+      ],
+      "name": "(Ox Answer Love 3)",
+      "pid": "30",
+      "position": {
+        "x": "0",
+        "y": "2394"
+      }
+    },
+    {
+      "text": "Eon: What is it given one, you'll have either two or none?\nStranger: ...\nEon: Think carefully. Remember, there will be consequences.\n[[Human|(Human Escape 1)]]\n",
+      "links": [
+        {
+          "name": "Human|(Human Escape 1)",
+          "link": "Human|(Human Escape 1)",
+          "broken": true
+        }
+      ],
+      "name": "Listen up!",
+      "pid": "31",
+      "position": {
+        "x": "289",
+        "y": "2028"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Queen",
+      "pid": "32",
+      "position": {
+        "x": "439",
+        "y": "2028"
+      }
+    },
+    {
+      "text": "Stranger: If I were you, I'd listen to me, or there would be consequences.\n[[uhm...]]\n[[What the fuck do you want?]]",
+      "links": [
+        {
+          "name": "uhm...",
+          "link": "uhm...",
+          "pid": "4"
+        },
+        {
+          "name": "What the fuck do you want?",
+          "link": "What the fuck do you want?",
+          "pid": "8"
+        }
+      ],
+      "name": "Just fucking let me go!",
+      "pid": "33",
+      "position": {
+        "x": "525",
+        "y": "1274"
+      }
+    },
+    {
+      "text": "Eon: Holy shit, what's gonna happen now? // Eon is shaking\n// speakers turned on\nStranger: TO GET OUT YOU GOTTA EAT THE EXIT WHOLE DOOR. DON'T TRY TO CHEAT, IT WON'T WORK.\nEon: The door? // Eon looks confused\n[[(Ox Turnip 1)]]\n[[(Eagle Turnip 1)]]\n",
+      "links": [
+        {
+          "name": "(Ox Turnip 1)",
+          "link": "(Ox Turnip 1)",
+          "pid": "35"
+        },
+        {
+          "name": "(Eagle Turnip 1)",
+          "link": "(Eagle Turnip 1)",
+          "pid": "36"
+        }
+      ],
+      "name": "(Ox Announcement)",
+      "pid": "34",
+      "position": {
+        "x": "0",
+        "y": "2544"
+      }
+    },
+    {
+      "text": "// Door turns into a turnip\nEon: Holy shit, that's definitely not what I expected.\nStranger: AND IT'S A BITTER ONE. HAHAHAHA.\n[[(Ox Turnip 2)]]\n",
+      "links": [
+        {
+          "name": "(Ox Turnip 2)",
+          "link": "(Ox Turnip 2)",
+          "pid": "37"
+        }
+      ],
+      "name": "(Ox Turnip 1)",
+      "pid": "35",
+      "position": {
+        "x": "0",
+        "y": "2694"
+      }
+    },
+    {
+      "text": "Eon: //This is really stupid. I am nottrying to get out. I'm witing to get on my train!//\nEon: //I should just pretend to eat it until my train arrives, which should be any minute now.//\nStranger: GO AHEAD!\n[[(Eagle Turnip 2)]]\n\n",
+      "links": [
+        {
+          "name": "(Eagle Turnip 2)",
+          "link": "(Eagle Turnip 2)",
+          "pid": "39"
+        }
+      ],
+      "name": "(Eagle Turnip 1)",
+      "pid": "36",
+      "position": {
+        "x": "120",
+        "y": "2694"
+      }
+    },
+    {
+      "text": "Eon: Okey, I can eat a turnip. Whatever.\nEon:[bites turnip]\nEon: //It's hard, and bitter just like he said//\n[[(Ox)]]",
+      "links": [
+        {
+          "name": "(Ox)",
+          "link": "(Ox)",
+          "pid": "38"
+        }
+      ],
+      "name": "(Ox Turnip 2)",
+      "pid": "37",
+      "position": {
+        "x": "0",
+        "y": "2844"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "(Ox)",
+      "pid": "38",
+      "position": {
+        "x": "0",
+        "y": "2994"
+      }
+    },
+    {
+      "text": "Eon: [takes a small bite of turnip]\nStranger: WOW, YOU ARE A SLOW EATER\nWon: Wow, I'm so full. I think I need a break.\n[[(Eagle Turnip 3)]]\n",
+      "links": [
+        {
+          "name": "(Eagle Turnip 3)",
+          "link": "(Eagle Turnip 3)",
+          "pid": "40"
+        }
+      ],
+      "name": "(Eagle Turnip 2)",
+      "pid": "39",
+      "position": {
+        "x": "121",
+        "y": "2844"
+      }
+    },
+    {
+      "text": "// Train starts approaching\nStranger: GOTTA EAT FASTER",
+      "name": "(Eagle Turnip 3)",
+      "pid": "40",
+      "position": {
+        "x": "120",
+        "y": "2994"
+      }
+    },
+    {
+      "text": "Stranger: ...\n// Eon can move and should start walking to the door\n[[(Human Escape 2)]]",
+      "links": [
+        {
+          "name": "(Human Escape 2)",
+          "link": "(Human Escape 2)",
+          "pid": "42"
+        }
+      ],
+      "name": "(Human Escape 1)",
+      "pid": "41",
+      "position": {
+        "x": "289",
+        "y": "2178"
+      }
+    },
+    {
+      "text": "// Siren alerts when Eon reaches the door\nStranger: YOU THINK YOU CAN FOOL ME?\n// Stranger floats toward Eon\nEon: Oh Shit!\n[[(Ox)]]\n[[(Eagle)]]\n",
+      "links": [
+        {
+          "name": "(Ox)",
+          "link": "(Ox)",
+          "pid": "38"
+        },
+        {
+          "name": "(Eagle)",
+          "link": "(Eagle)",
+          "pid": "43"
+        }
+      ],
+      "name": "(Human Escape 2)",
+      "pid": "42",
+      "position": {
+        "x": "289",
+        "y": "2328"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "(Eagle)",
+      "pid": "43",
+      "position": {
+        "x": "289",
+        "y": "2478"
+      }
+    }
+  ],
+  "name": "TWC-Story-Stranger",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.15",
+  "ifid": "EABAF898-D2D5-49A3-B0F6-105C61313609"
+}

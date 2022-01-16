@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: Dialogue Database
+  m_Name: Dialogue Database (Auto-Backup)
   m_EditorClassIdentifier: 
   version: 
   author: 
@@ -10165,8 +10165,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1170
-        y: 1170
+        x: 480
+        y: 320
         width: 160
         height: 30
     - id: 1
@@ -10226,7 +10226,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
+        x: 480
         y: 70
         width: 160
         height: 30
@@ -10281,8 +10281,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 370
+        x: 660
+        y: 170
         width: 160
         height: 30
     - id: 3
@@ -10349,7 +10349,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 435
+        x: 300
         y: 170
         width: 160
         height: 30
@@ -10410,8 +10410,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1002
-        y: 970
+        x: 20
+        y: 20
         width: 160
         height: 30
     - id: 5
@@ -10465,8 +10465,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1002
-        y: 770
+        x: 20
+        y: 70
         width: 160
         height: 30
     - id: 6
@@ -10526,8 +10526,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1275
-        y: 670
+        x: 20
+        y: 120
         width: 160
         height: 30
     - id: 7
@@ -10595,8 +10595,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 770
+        x: 20
+        y: 170
         width: 160
         height: 30
     - id: 8
@@ -10661,8 +10661,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1254
-        y: 970
+        x: 20
+        y: 220
         width: 160
         height: 30
     - id: 9
@@ -10730,8 +10730,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1065
-        y: 1070
+        x: 20
+        y: 270
         width: 160
         height: 30
     - id: 10
@@ -10802,8 +10802,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 330
-        y: 270
+        x: 20
+        y: 320
         width: 160
         height: 30
     - id: 11
@@ -10880,7 +10880,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 330
+        x: 20
         y: 370
         width: 160
         height: 30
@@ -10935,8 +10935,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1275
-        y: 1070
+        x: 20
+        y: 420
         width: 160
         height: 30
     - id: 13
@@ -10995,7 +10995,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
+        x: 20
         y: 470
         width: 160
         height: 30
@@ -11058,8 +11058,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1222.5
-        y: 570
+        x: 20
+        y: 520
         width: 160
         height: 30
     - id: 15
@@ -11106,19 +11106,19 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 15
         destinationConversationID: 5
-        destinationDialogueID: 17
+        destinationDialogueID: 71
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 15
         destinationConversationID: 5
-        destinationDialogueID: 18
+        destinationDialogueID: 72
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 15
         destinationConversationID: 5
-        destinationDialogueID: 19
+        destinationDialogueID: 73
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11128,8 +11128,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 855
-        y: 670
+        x: 20
+        y: 570
         width: 160
         height: 30
     - id: 16
@@ -11188,7 +11188,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 16
         destinationConversationID: 5
-        destinationDialogueID: 71
+        destinationDialogueID: 74
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11198,8 +11198,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 592.5
-        y: 570
+        x: 20
+        y: 620
         width: 160
         height: 30
     - id: 17
@@ -11225,7 +11225,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: uhmm...
+        value: ...
         type: 0
         typeString: 
       - title: Sequence
@@ -11243,19 +11243,19 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 17
         destinationConversationID: 5
-        destinationDialogueID: 20
+        destinationDialogueID: 75
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 17
         destinationConversationID: 5
-        destinationDialogueID: 21
+        destinationDialogueID: 76
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 17
         destinationConversationID: 5
-        destinationDialogueID: 22
+        destinationDialogueID: 77
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11265,8 +11265,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 620
+        x: 20
+        y: 670
         width: 160
         height: 30
     - id: 18
@@ -11292,7 +11292,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: What kind of consequences?
+        value: <i>It's useless to discuss is at this point. Just think.</i>
         type: 0
         typeString: 
       - title: Sequence
@@ -11310,13 +11310,19 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 18
         destinationConversationID: 5
-        destinationDialogueID: 21
+        destinationDialogueID: 78
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 18
         destinationConversationID: 5
-        destinationDialogueID: 22
+        destinationDialogueID: 79
+        isConnector: 0
+        priority: 2
+      - originConversationID: 5
+        originDialogueID: 18
+        destinationConversationID: 5
+        destinationDialogueID: 80
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11326,8 +11332,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 620
+        x: 20
+        y: 720
         width: 160
         height: 30
     - id: 19
@@ -11353,7 +11359,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: hmmm...
+        value: ...
         type: 0
         typeString: 
       - title: Sequence
@@ -11371,19 +11377,19 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 19
         destinationConversationID: 5
-        destinationDialogueID: 20
+        destinationDialogueID: 81
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 19
         destinationConversationID: 5
-        destinationDialogueID: 21
+        destinationDialogueID: 82
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 19
         destinationConversationID: 5
-        destinationDialogueID: 22
+        destinationDialogueID: 83
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11393,14 +11399,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 570
-        y: 620
+        x: 20
+        y: 770
         width: 160
         height: 30
     - id: 20
       fields:
       - title: Title
-        value: //What's something that you keep after giving it?//
+        value: (Ox Riddle 1)
         type: 0
         typeString: 
       - title: Description
@@ -11420,7 +11426,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: <i>What's something that you keep after giving it?</i>
+        value: '<i>What''s something that you keep after giving it?</i>
+
+          Eon:
+          <i>...</i>
+
+          Eon: I''m sorry, do you mind repeating the riddle
+          again?'
         type: 0
         typeString: 
       - title: Sequence
@@ -11438,7 +11450,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 20
         destinationConversationID: 5
-        destinationDialogueID: 72
+        destinationDialogueID: 84
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11448,8 +11460,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 870
+        x: 20
+        y: 820
         width: 160
         height: 30
     - id: 21
@@ -11475,7 +11487,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ermm...
+        value: <i>Sounds like STDs fits this definition perfectly. You still keep
+          them after you give it to someone!</i>
         type: 0
         typeString: 
       - title: Sequence
@@ -11493,13 +11506,13 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 21
         destinationConversationID: 5
-        destinationDialogueID: 73
+        destinationDialogueID: 85
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 21
         destinationConversationID: 5
-        destinationDialogueID: 20
+        destinationDialogueID: 86
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11509,14 +11522,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 592.5
-        y: 820
+        x: 20
+        y: 870
         width: 160
         height: 30
     - id: 22
       fields:
       - title: Title
-        value: '//This dude must be super old.// '
+        value: (Eagle Riddle 1)
         type: 0
         typeString: 
       - title: Description
@@ -11536,7 +11549,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: <i>This dude must be super old.</i>
+        value: '<i>This dude must be super old. It might be a lame word play.</i>
+
+          Eon:
+          So it can be advice or word. But technically you don''t need to keep any
+          of those after giving them.'
         type: 0
         typeString: 
       - title: Sequence
@@ -11554,19 +11571,19 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 22
         destinationConversationID: 5
-        destinationDialogueID: 74
+        destinationDialogueID: 87
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 22
         destinationConversationID: 5
-        destinationDialogueID: 20
+        destinationDialogueID: 88
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 22
         destinationConversationID: 5
-        destinationDialogueID: 24
+        destinationDialogueID: 89
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11576,8 +11593,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 645
-        y: 670
+        x: 20
+        y: 920
         width: 160
         height: 30
     - id: 23
@@ -11629,7 +11646,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 23
         destinationConversationID: 5
-        destinationDialogueID: 25
+        destinationDialogueID: 90
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11639,14 +11656,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 920
+        x: 20
+        y: 970
         width: 160
         height: 30
     - id: 24
       fields:
       - title: Title
-        value: //I guess you are expected to keep your word after you give it.//
+        value: (Eagle Guess 1)
         type: 0
         typeString: 
       - title: Description
@@ -11666,7 +11683,14 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: <i>I guess you are expected to keep your word after you give it.</i>
+        value: '<i>I guess you are expected to keep your word after you give it.</i>
+
+          Eon:
+          <i>Considering this dude''s age, it''s probably something old fashioned
+          like that. I''ll go for it, at least I won''t get eaten.</i>
+
+          Eon:
+          My guess is "word".'
         type: 0
         typeString: 
       - title: Sequence
@@ -11688,14 +11712,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 720
+        x: 20
+        y: 1020
         width: 160
         height: 30
     - id: 25
       fields:
       - title: Title
-        value: Wait a minute!
+        value: (Human Guess 2)
         type: 0
         typeString: 
       - title: Description
@@ -11715,7 +11739,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Wait a minute!
+        value: 'Wait a minute! That''s just cheating man, not cool!
+
+          Eon:
+          It''s my turn to ask you one now!
+
+          Stranger: You?
+
+          Eon:
+          Yes, it''s your turn to guess now.'
         type: 0
         typeString: 
       - title: Sequence
@@ -11733,13 +11765,13 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 25
         destinationConversationID: 5
-        destinationDialogueID: 31
+        destinationDialogueID: 91
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 25
         destinationConversationID: 5
-        destinationDialogueID: 75
+        destinationDialogueID: 92
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11749,14 +11781,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 970
+        x: 20
+        y: 1070
         width: 160
         height: 30
     - id: 26
       fields:
       - title: Title
-        value: Sorry...
+        value: (Ox Riddle 2)
         type: 0
         typeString: 
       - title: Description
@@ -11804,13 +11836,13 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 26
         destinationConversationID: 5
-        destinationDialogueID: 76
+        destinationDialogueID: 93
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 26
         destinationConversationID: 5
-        destinationDialogueID: 21
+        destinationDialogueID: 94
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11820,14 +11852,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 246
-        y: 770
+        x: 20
+        y: 1120
         width: 160
         height: 30
     - id: 27
       fields:
       - title: Title
-        value: It's love
+        value: (Ox Answer Love 1)
         type: 0
         typeString: 
       - title: Description
@@ -11877,13 +11909,13 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 27
         destinationConversationID: 5
-        destinationDialogueID: 28
+        destinationDialogueID: 95
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 27
         destinationConversationID: 5
-        destinationDialogueID: 77
+        destinationDialogueID: 96
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11893,14 +11925,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 246
-        y: 870
+        x: 20
+        y: 1170
         width: 160
         height: 30
     - id: 28
       fields:
       - title: Title
-        value: //It has to be love//
+        value: (Ox Answer Love 2)
         type: 0
         typeString: 
       - title: Description
@@ -11920,7 +11952,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: <i>It has to be love</i>
+        value: '<i>It has to be love, she thinks, or at least nothing else comes
+          to mind.</i>
+
+          Eon: Okay, I''d guess it''s love.'
         type: 0
         typeString: 
       - title: Sequence
@@ -11938,7 +11973,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 28
         destinationConversationID: 5
-        destinationDialogueID: 30
+        destinationDialogueID: 97
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11948,14 +11983,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 246
-        y: 920
+        x: 20
+        y: 1220
         width: 160
         height: 30
     - id: 29
       fields:
       - title: Title
-        value: Water
+        value: (Eagle Answer Water 1)
         type: 0
         typeString: 
       - title: Description
@@ -11997,8 +12032,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 498
-        y: 970
+        x: 20
+        y: 1270
         width: 160
         height: 30
     - id: 30
@@ -12053,7 +12088,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 30
         destinationConversationID: 5
-        destinationDialogueID: 34
+        destinationDialogueID: 98
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -12063,14 +12098,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 246
-        y: 970
+        x: 20
+        y: 1320
         width: 160
         height: 30
     - id: 31
       fields:
       - title: Title
-        value: Listen up!
+        value: (Human asks riddle)
         type: 0
         typeString: 
       - title: Description
@@ -12090,7 +12125,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Listen up!
+        value: 'What is it given one, you''ll have either two or none?
+
+          Stranger:
+          ...
+
+          Eon: Think carefully. Remember, there will be consequences.'
         type: 0
         typeString: 
       - title: Sequence
@@ -12108,7 +12148,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 31
         destinationConversationID: 5
-        destinationDialogueID: 78
+        destinationDialogueID: 99
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -12118,14 +12158,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 498
-        y: 1020
+        x: 20
+        y: 1370
         width: 160
         height: 30
     - id: 32
       fields:
       - title: Title
-        value: Queen
+        value: (Eagle guess queen)
         type: 0
         typeString: 
       - title: Description
@@ -12167,8 +12207,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 855
-        y: 1070
+        x: 20
+        y: 1420
         width: 160
         height: 30
     - id: 33
@@ -12212,13 +12252,13 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 33
         destinationConversationID: 5
-        destinationDialogueID: 79
+        destinationDialogueID: 100
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 33
         destinationConversationID: 5
-        destinationDialogueID: 80
+        destinationDialogueID: 101
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -12228,8 +12268,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1254
-        y: 870
+        x: 20
+        y: 1470
         width: 160
         height: 30
     - id: 34
@@ -12282,13 +12322,13 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 34
         destinationConversationID: 5
-        destinationDialogueID: 35
+        destinationDialogueID: 102
         isConnector: 0
         priority: 2
       - originConversationID: 5
         originDialogueID: 34
         destinationConversationID: 5
-        destinationDialogueID: 36
+        destinationDialogueID: 103
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -12298,8 +12338,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 246
-        y: 1020
+        x: 20
+        y: 1520
         width: 160
         height: 30
     - id: 35
@@ -12348,7 +12388,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 35
         destinationConversationID: 5
-        destinationDialogueID: 37
+        destinationDialogueID: 104
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -12358,8 +12398,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 225
-        y: 1070
+        x: 20
+        y: 1570
         width: 160
         height: 30
     - id: 36
@@ -12410,7 +12450,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 36
         destinationConversationID: 5
-        destinationDialogueID: 39
+        destinationDialogueID: 105
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -12420,8 +12460,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 435
-        y: 1070
+        x: 20
+        y: 1620
         width: 160
         height: 30
     - id: 37
@@ -12480,8 +12520,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 330
-        y: 1120
+        x: 20
+        y: 1670
         width: 160
         height: 30
     - id: 38
@@ -12529,8 +12569,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 330
-        y: 1170
+        x: 20
+        y: 1720
         width: 160
         height: 30
     - id: 39
@@ -12579,7 +12619,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 39
         destinationConversationID: 5
-        destinationDialogueID: 40
+        destinationDialogueID: 106
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -12589,8 +12629,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 1120
+        x: 20
+        y: 1770
         width: 160
         height: 30
     - id: 40
@@ -12640,8 +12680,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 1170
+        x: 20
+        y: 1820
         width: 160
         height: 30
     - id: 41
@@ -12687,7 +12727,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 41
         destinationConversationID: 5
-        destinationDialogueID: 42
+        destinationDialogueID: 107
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -12697,8 +12737,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 156
-        y: 24
+        x: 20
+        y: 1870
         width: 160
         height: 30
     - id: 42
@@ -12766,8 +12806,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 168
-        y: 96
+        x: 20
+        y: 1920
         width: 160
         height: 30
     - id: 43
@@ -12815,8 +12855,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 144
-        y: 168
+        x: 20
+        y: 1970
         width: 160
         height: 30
     - id: 44
@@ -12870,7 +12910,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 435
+        x: 300
         y: 120
         width: 160
         height: 30
@@ -12925,14 +12965,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1065
+        x: 660
         y: 120
         width: 160
         height: 30
     - id: 46
       fields:
       - title: Title
-        value: uhm... Link 2
+        value: Ox|uhm... Link 2
         type: 0
         typeString: 
       - title: Description
@@ -12952,11 +12992,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: uhm...
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -12970,7 +13014,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 46
         destinationConversationID: 5
-        destinationDialogueID: 4
+        destinationDialogueID: 108
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -12980,14 +13024,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1254
-        y: 420
+        x: 750
+        y: 220
         width: 160
         height: 30
     - id: 47
       fields:
       - title: Title
-        value: Why do you talk to me like that? What do you want? Link 3
+        value: Eagle|Why do you talk to me like that? What do you want? Link 3
         type: 0
         typeString: 
       - title: Description
@@ -13007,11 +13051,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Why do you talk to me like that? What do you want?
+        value: Eagle
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13025,7 +13073,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 47
         destinationConversationID: 5
-        destinationDialogueID: 10
+        destinationDialogueID: 109
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13035,14 +13083,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 330
+        x: 210
         y: 220
         width: 160
         height: 30
     - id: 48
       fields:
       - title: Title
-        value: ... Link 3
+        value: Ox|... Link 3
         type: 0
         typeString: 
       - title: Description
@@ -13062,11 +13110,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ...
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13080,7 +13132,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 48
         destinationConversationID: 5
-        destinationDialogueID: 2
+        destinationDialogueID: 110
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13090,14 +13142,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
+        x: 390
         y: 220
         width: 160
         height: 30
     - id: 49
       fields:
       - title: Title
-        value: I don't know what riddle means. Link 3
+        value: Human|I don't know what riddle means. Link 3
         type: 0
         typeString: 
       - title: Description
@@ -13117,11 +13169,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I don't know what riddle means.
+        value: Human
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13135,7 +13191,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 49
         destinationConversationID: 5
-        destinationDialogueID: 9
+        destinationDialogueID: 111
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13145,14 +13201,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1170
+        x: 570
         y: 220
         width: 160
         height: 30
     - id: 50
       fields:
       - title: Title
-        value: uhh... Link 4
+        value: Ox|uhh... Link 4
         type: 0
         typeString: 
       - title: Description
@@ -13172,11 +13228,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: uhh...
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13190,7 +13250,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 50
         destinationConversationID: 5
-        destinationDialogueID: 5
+        destinationDialogueID: 112
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13200,14 +13260,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 930
-        y: 620
+        x: 20
+        y: 2020
         width: 160
         height: 30
     - id: 51
       fields:
       - title: Title
-        value: JUST FUCKING LET ME GO! Link 4
+        value: Lion|JUST FUCKING LET ME GO! Link 4
         type: 0
         typeString: 
       - title: Description
@@ -13227,11 +13287,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: JUST FUCKING LET ME GO!
+        value: Lion
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13245,7 +13309,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 51
         destinationConversationID: 5
-        destinationDialogueID: 6
+        destinationDialogueID: 113
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13255,14 +13319,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1110
-        y: 620
+        x: 20
+        y: 2070
         width: 160
         height: 30
     - id: 52
       fields:
       - title: Title
-        value: AH! Link 5
+        value: Ox|AH! Link 5
         type: 0
         typeString: 
       - title: Description
@@ -13282,11 +13346,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: AH!
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13300,7 +13368,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 52
         destinationConversationID: 5
-        destinationDialogueID: 7
+        destinationDialogueID: 114
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13310,14 +13378,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 930
-        y: 720
+        x: 20
+        y: 2120
         width: 160
         height: 30
     - id: 53
       fields:
       - title: Title
-        value: uhh... Link 6
+        value: Ox|uhh... Link 6
         type: 0
         typeString: 
       - title: Description
@@ -13337,11 +13405,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: uhh...
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13355,7 +13427,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 53
         destinationConversationID: 5
-        destinationDialogueID: 5
+        destinationDialogueID: 115
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13365,14 +13437,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1110
-        y: 720
+        x: 20
+        y: 2170
         width: 160
         height: 30
     - id: 54
       fields:
       - title: Title
-        value: What the fuck do you want? Link 6
+        value: Lion|What the fuck do you want? Link 6
         type: 0
         typeString: 
       - title: Description
@@ -13392,11 +13464,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: What the fuck do you want?
+        value: Lion
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13410,7 +13486,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 54
         destinationConversationID: 5
-        destinationDialogueID: 8
+        destinationDialogueID: 116
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13420,14 +13496,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1290
-        y: 720
+        x: 20
+        y: 2220
         width: 160
         height: 30
     - id: 55
       fields:
       - title: Title
-        value: uhm... Link 7
+        value: Ox|uhm... Link 7
         type: 0
         typeString: 
       - title: Description
@@ -13447,11 +13523,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: uhm...
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13465,7 +13545,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 55
         destinationConversationID: 5
-        destinationDialogueID: 4
+        destinationDialogueID: 117
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13475,14 +13555,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 907.5
-        y: 820
+        x: 20
+        y: 2270
         width: 160
         height: 30
     - id: 56
       fields:
       - title: Title
-        value: Just fucking let me go! Link 7
+        value: Lion|Just fucking let me go! Link 7
         type: 0
         typeString: 
       - title: Description
@@ -13502,11 +13582,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Just fucking let me go!
+        value: Lion
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13520,7 +13604,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 56
         destinationConversationID: 5
-        destinationDialogueID: 33
+        destinationDialogueID: 118
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13530,14 +13614,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1222.5
-        y: 820
+        x: 20
+        y: 2320
         width: 160
         height: 30
     - id: 57
       fields:
       - title: Title
-        value: I don't know what riddle means. Link 8
+        value: Human|I don't know what riddle means. Link 8
         type: 0
         typeString: 
       - title: Description
@@ -13557,11 +13641,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I don't know what riddle means.
+        value: Human
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13575,7 +13663,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 57
         destinationConversationID: 5
-        destinationDialogueID: 9
+        destinationDialogueID: 119
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13585,14 +13673,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1002
-        y: 1020
+        x: 20
+        y: 2370
         width: 160
         height: 30
     - id: 58
       fields:
       - title: Title
-        value: Okay, tell me. Link 8
+        value: Ox|Okay, tell me. Link 8
         type: 0
         typeString: 
       - title: Description
@@ -13612,11 +13700,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Okay, tell me.
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13630,7 +13722,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 58
         destinationConversationID: 5
-        destinationDialogueID: 12
+        destinationDialogueID: 120
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13640,14 +13732,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1254
-        y: 1020
+        x: 20
+        y: 2420
         width: 160
         height: 30
     - id: 59
       fields:
       - title: Title
-        value: Okay, but what's a puzzle? Link 9
+        value: Human|Okay, but what's a puzzle? Link 9
         type: 0
         typeString: 
       - title: Description
@@ -13667,11 +13759,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Okay, but what's a puzzle?
+        value: Human
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13685,7 +13781,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 59
         destinationConversationID: 5
-        destinationDialogueID: 16
+        destinationDialogueID: 121
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13695,14 +13791,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 592.5
-        y: 520
+        x: 20
+        y: 2470
         width: 160
         height: 30
     - id: 60
       fields:
       - title: Title
-        value: uhm... Link 9
+        value: Ox|uhm... Link 9
         type: 0
         typeString: 
       - title: Description
@@ -13722,11 +13818,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: uhm...
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13740,7 +13840,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 60
         destinationConversationID: 5
-        destinationDialogueID: 4
+        destinationDialogueID: 122
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13750,14 +13850,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 907.5
-        y: 520
+        x: 20
+        y: 2520
         width: 160
         height: 30
     - id: 61
       fields:
       - title: Title
-        value: What if I say no? Link 10
+        value: Eagle|What if I say no? Link 10
         type: 0
         typeString: 
       - title: Description
@@ -13777,11 +13877,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: What if I say no?
+        value: Eagle
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13795,7 +13899,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 61
         destinationConversationID: 5
-        destinationDialogueID: 11
+        destinationDialogueID: 123
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13805,14 +13909,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 330
-        y: 320
+        x: 20
+        y: 2570
         width: 160
         height: 30
     - id: 62
       fields:
       - title: Title
-        value: ... Link 10
+        value: Ox|... Link 10
         type: 0
         typeString: 
       - title: Description
@@ -13832,11 +13936,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ...
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13850,7 +13958,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 62
         destinationConversationID: 5
-        destinationDialogueID: 2
+        destinationDialogueID: 124
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13860,14 +13968,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 320
+        x: 20
+        y: 2620
         width: 160
         height: 30
     - id: 63
       fields:
       - title: Title
-        value: I don't know what riddle means. Link 10
+        value: Human|I don't know what riddle means. Link 10
         type: 0
         typeString: 
       - title: Description
@@ -13887,11 +13995,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I don't know what riddle means.
+        value: Human
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13905,7 +14017,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 63
         destinationConversationID: 5
-        destinationDialogueID: 9
+        destinationDialogueID: 125
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13915,14 +14027,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1170
-        y: 320
+        x: 20
+        y: 2670
         width: 160
         height: 30
     - id: 64
       fields:
       - title: Title
-        value: Okay, tell me. Link 11
+        value: Ox|Okay, tell me. Link 11
         type: 0
         typeString: 
       - title: Description
@@ -13942,11 +14054,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Okay, tell me.
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -13960,7 +14076,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 64
         destinationConversationID: 5
-        destinationDialogueID: 12
+        destinationDialogueID: 126
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13970,14 +14086,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 246
-        y: 420
+        x: 20
+        y: 2720
         width: 160
         height: 30
     - id: 65
       fields:
       - title: Title
-        value: I don't know what riddle means. Link 11
+        value: Human|I don't know what riddle means. Link 11
         type: 0
         typeString: 
       - title: Description
@@ -13997,11 +14113,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I don't know what riddle means.
+        value: Human
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14015,7 +14135,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 65
         destinationConversationID: 5
-        destinationDialogueID: 9
+        destinationDialogueID: 127
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14025,14 +14145,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 498
-        y: 420
+        x: 20
+        y: 2770
         width: 160
         height: 30
     - id: 66
       fields:
       - title: Title
-        value: And may I ask who you are? Link 11
+        value: Eagle|And may I ask who you are? Link 11
         type: 0
         typeString: 
       - title: Description
@@ -14052,11 +14172,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: And may I ask who you are?
+        value: Eagle
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14070,7 +14194,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 66
         destinationConversationID: 5
-        destinationDialogueID: 13
+        destinationDialogueID: 128
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14080,14 +14204,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 420
+        x: 20
+        y: 2820
         width: 160
         height: 30
     - id: 67
       fields:
       - title: Title
-        value: What the fuck do you want? Link 11
+        value: Lion|What the fuck do you want? Link 11
         type: 0
         typeString: 
       - title: Description
@@ -14107,11 +14231,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: What the fuck do you want?
+        value: Lion
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14125,7 +14253,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 67
         destinationConversationID: 5
-        destinationDialogueID: 8
+        destinationDialogueID: 129
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14135,14 +14263,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1002
-        y: 420
+        x: 20
+        y: 2870
         width: 160
         height: 30
     - id: 68
       fields:
       - title: Title
-        value: Ok. Link 12
+        value: Ox|Ok. Link 12
         type: 0
         typeString: 
       - title: Description
@@ -14162,11 +14290,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Ok.
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14180,7 +14312,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 68
         destinationConversationID: 5
-        destinationDialogueID: 15
+        destinationDialogueID: 130
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14190,14 +14322,15 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 277.5
-        y: 520
+        x: 20
+        y: 2920
         width: 160
         height: 30
     - id: 69
       fields:
       - title: Title
-        value: You are a Sphynix, master of riddles and father of terror. Link 13
+        value: Eagle|You are a Sphynix, master of riddles and father of terror. Link
+          13
         type: 0
         typeString: 
       - title: Description
@@ -14217,11 +14350,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You are a Sphynix, master of riddles and father of terror.
+        value: Eagle
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14235,7 +14372,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 69
         destinationConversationID: 5
-        destinationDialogueID: 14
+        destinationDialogueID: 131
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14245,14 +14382,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1222.5
-        y: 520
+        x: 20
+        y: 2970
         width: 160
         height: 30
     - id: 70
       fields:
       - title: Title
-        value: Ok. Link 14
+        value: Eagle|Ok. Link 14
         type: 0
         typeString: 
       - title: Description
@@ -14272,11 +14409,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Ok.
+        value: Eagle
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14290,7 +14431,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 70
         destinationConversationID: 5
-        destinationDialogueID: 15
+        destinationDialogueID: 132
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14300,14 +14441,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1290
-        y: 620
+        x: 20
+        y: 3020
         width: 160
         height: 30
     - id: 71
       fields:
       - title: Title
-        value: Ok. Link 16
+        value: Human|uhmm... Link 15
         type: 0
         typeString: 
       - title: Description
@@ -14327,11 +14468,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Ok.
+        value: Human
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14345,7 +14490,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 71
         destinationConversationID: 5
-        destinationDialogueID: 15
+        destinationDialogueID: 133
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14355,14 +14500,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 620
+        x: 20
+        y: 3070
         width: 160
         height: 30
     - id: 72
       fields:
       - title: Title
-        value: Sorry... Link 20
+        value: Ox|What kind of consequences? Link 15
         type: 0
         typeString: 
       - title: Description
@@ -14382,11 +14527,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Sorry...
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14400,7 +14549,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 72
         destinationConversationID: 5
-        destinationDialogueID: 26
+        destinationDialogueID: 134
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14410,14 +14559,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 720
+        x: 20
+        y: 3120
         width: 160
         height: 30
     - id: 73
       fields:
       - title: Title
-        value: Okay, I think it's STDs Link 21
+        value: Eagle|hmmm... Link 15
         type: 0
         typeString: 
       - title: Description
@@ -14437,11 +14586,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Okay, I think it's STDs
+        value: Eagle
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14455,7 +14608,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 73
         destinationConversationID: 5
-        destinationDialogueID: 23
+        destinationDialogueID: 135
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14465,14 +14618,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 498
-        y: 870
+        x: 20
+        y: 3170
         width: 160
         height: 30
     - id: 74
       fields:
       - title: Title
-        value: Okay, I think it's STDs Link 22
+        value: Human|Ok. Link 16
         type: 0
         typeString: 
       - title: Description
@@ -14492,11 +14645,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Okay, I think it's STDs
+        value: Human
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14510,7 +14667,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 74
         destinationConversationID: 5
-        destinationDialogueID: 23
+        destinationDialogueID: 136
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14520,14 +14677,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 720
+        x: 20
+        y: 3220
         width: 160
         height: 30
     - id: 75
       fields:
       - title: Title
-        value: Queen Link 25
+        value: Ox|(Ox Riddle 1) Link 17
         type: 0
         typeString: 
       - title: Description
@@ -14547,11 +14704,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Queen
+        value: Ox
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14565,7 +14726,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 75
         destinationConversationID: 5
-        destinationDialogueID: 32
+        destinationDialogueID: 137
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14575,14 +14736,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 1020
+        x: 20
+        y: 3270
         width: 160
         height: 30
     - id: 76
       fields:
       - title: Title
-        value: It's love Link 26
+        value: ' Human|ermm... Link 17'
         type: 0
         typeString: 
       - title: Description
@@ -14602,11 +14763,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: It's love
+        value: Human
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14620,7 +14785,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 76
         destinationConversationID: 5
-        destinationDialogueID: 27
+        destinationDialogueID: 138
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14630,14 +14795,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 277.5
-        y: 820
+        x: 20
+        y: 3320
         width: 160
         height: 30
     - id: 77
       fields:
       - title: Title
-        value: Water Link 27
+        value: Eagle|(Eagle Riddle 1) Link 17
         type: 0
         typeString: 
       - title: Description
@@ -14657,11 +14822,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Water
+        value: Eagle
         type: 0
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
         type: 0
         typeString: 
       conversationID: 5
@@ -14675,7 +14844,7 @@ MonoBehaviour:
       - originConversationID: 5
         originDialogueID: 77
         destinationConversationID: 5
-        destinationDialogueID: 29
+        destinationDialogueID: 139
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14685,11 +14854,1250 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 498
-        y: 920
+        x: 20
+        y: 3370
         width: 160
         height: 30
     - id: 78
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 1) Link 18
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 78
+        destinationConversationID: 5
+        destinationDialogueID: 140
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3420
+        width: 160
+        height: 30
+    - id: 79
+      fields:
+      - title: Title
+        value: Human|ermm... Link 18
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Human
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 79
+        destinationConversationID: 5
+        destinationDialogueID: 141
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3470
+        width: 160
+        height: 30
+    - id: 80
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Riddle 1) Link 18
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Eagle
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 80
+        destinationConversationID: 5
+        destinationDialogueID: 142
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3520
+        width: 160
+        height: 30
+    - id: 81
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 1) Link 19
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 81
+        destinationConversationID: 5
+        destinationDialogueID: 143
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3570
+        width: 160
+        height: 30
+    - id: 82
+      fields:
+      - title: Title
+        value: ' Human|ermm... Link 19'
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Human
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 82
+        destinationConversationID: 5
+        destinationDialogueID: 144
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3620
+        width: 160
+        height: 30
+    - id: 83
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Riddle 1) Link 19
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Eagle
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 83
+        destinationConversationID: 5
+        destinationDialogueID: 145
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3670
+        width: 160
+        height: 30
+    - id: 84
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 2) Link 20
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 84
+        destinationConversationID: 5
+        destinationDialogueID: 146
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3720
+        width: 160
+        height: 30
+    - id: 85
+      fields:
+      - title: Title
+        value: Human|Okay, I think it's STDs Link 21
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Human
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 85
+        destinationConversationID: 5
+        destinationDialogueID: 147
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3770
+        width: 160
+        height: 30
+    - id: 86
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 1) Link 21
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 86
+        destinationConversationID: 5
+        destinationDialogueID: 148
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3820
+        width: 160
+        height: 30
+    - id: 87
+      fields:
+      - title: Title
+        value: Human|Okay, I think it's STDs Link 22
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Human
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 87
+        destinationConversationID: 5
+        destinationDialogueID: 149
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3870
+        width: 160
+        height: 30
+    - id: 88
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 1) Link 22
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 88
+        destinationConversationID: 5
+        destinationDialogueID: 150
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3920
+        width: 160
+        height: 30
+    - id: 89
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Guess 1) Link 22
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Eagle
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 89
+        destinationConversationID: 5
+        destinationDialogueID: 151
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 3970
+        width: 160
+        height: 30
+    - id: 90
+      fields:
+      - title: Title
+        value: Human|(Human Guess 2) Link 23
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Human
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 90
+        destinationConversationID: 5
+        destinationDialogueID: 152
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4020
+        width: 160
+        height: 30
+    - id: 91
+      fields:
+      - title: Title
+        value: Human|(Human asks riddle) Link 25
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Human
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 91
+        destinationConversationID: 5
+        destinationDialogueID: 153
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4070
+        width: 160
+        height: 30
+    - id: 92
+      fields:
+      - title: Title
+        value: Eagle|(Eagle guess queen) Link 25
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Eagle
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 92
+        destinationConversationID: 5
+        destinationDialogueID: 154
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4120
+        width: 160
+        height: 30
+    - id: 93
+      fields:
+      - title: Title
+        value: Ox|(Ox Answer Love 1) Link 26
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 93
+        destinationConversationID: 5
+        destinationDialogueID: 155
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4170
+        width: 160
+        height: 30
+    - id: 94
+      fields:
+      - title: Title
+        value: Human|ermm... Link 26
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Human
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 94
+        destinationConversationID: 5
+        destinationDialogueID: 156
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4220
+        width: 160
+        height: 30
+    - id: 95
+      fields:
+      - title: Title
+        value: Ox|(Ox Answer Love 2) Link 27
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 95
+        destinationConversationID: 5
+        destinationDialogueID: 157
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4270
+        width: 160
+        height: 30
+    - id: 96
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Answer Water 1) Link 27
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Eagle
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 96
+        destinationConversationID: 5
+        destinationDialogueID: 158
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4320
+        width: 160
+        height: 30
+    - id: 97
+      fields:
+      - title: Title
+        value: Ox|(Ox Answer Love 3) Link 28
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 97
+        destinationConversationID: 5
+        destinationDialogueID: 159
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4370
+        width: 160
+        height: 30
+    - id: 98
+      fields:
+      - title: Title
+        value: Ox|(Ox Announcement) Link 30
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 98
+        destinationConversationID: 5
+        destinationDialogueID: 160
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4420
+        width: 160
+        height: 30
+    - id: 99
       fields:
       - title: Title
         value: Human|(Human Escape 1) Link 31
@@ -14732,9 +16140,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 5
-        originDialogueID: 78
+        originDialogueID: 99
         destinationConversationID: 5
-        destinationDialogueID: 81
+        destinationDialogueID: 161
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14744,14 +16152,486 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 645
-        y: 1070
+        x: 20
+        y: 4470
         width: 160
         height: 30
-    - id: 79
+    - id: 100
       fields:
       - title: Title
-        value: uhm... Link 33
+        value: Ox|uhm... Link 33
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 100
+        destinationConversationID: 5
+        destinationDialogueID: 162
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4520
+        width: 160
+        height: 30
+    - id: 101
+      fields:
+      - title: Title
+        value: Lion|What the fuck do you want? Link 33
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Lion
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 101
+        destinationConversationID: 5
+        destinationDialogueID: 163
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4570
+        width: 160
+        height: 30
+    - id: 102
+      fields:
+      - title: Title
+        value: Ox|(Ox Turnip 1) Link 34
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 102
+        destinationConversationID: 5
+        destinationDialogueID: 164
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4620
+        width: 160
+        height: 30
+    - id: 103
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Turnip 1) Link 34
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Eagle
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 103
+        destinationConversationID: 5
+        destinationDialogueID: 165
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4670
+        width: 160
+        height: 30
+    - id: 104
+      fields:
+      - title: Title
+        value: Ox|(Ox Turnip 2) Link 35
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ox
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 104
+        destinationConversationID: 5
+        destinationDialogueID: 166
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4720
+        width: 160
+        height: 30
+    - id: 105
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Turnip 2) Link 36
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Eagle
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 105
+        destinationConversationID: 5
+        destinationDialogueID: 167
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4770
+        width: 160
+        height: 30
+    - id: 106
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Turnip 3) Link 39
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Eagle
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 106
+        destinationConversationID: 5
+        destinationDialogueID: 168
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4820
+        width: 160
+        height: 30
+    - id: 107
+      fields:
+      - title: Title
+        value: Human |(Human Escape 2) Link 41
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Human '
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 107
+        destinationConversationID: 5
+        destinationDialogueID: 169
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4870
+        width: 160
+        height: 30
+    - id: 108
+      fields:
+      - title: Title
+        value: Ox|uhm... Link 2
         type: 0
         typeString: 
       - title: Description
@@ -14778,6 +16658,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
       conversationID: 5
       isRoot: 0
       isGroup: 0
@@ -14787,9 +16671,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 5
-        originDialogueID: 79
+        originDialogueID: 108
         destinationConversationID: 5
-        destinationDialogueID: 4
+        destinationDialogueID: 0
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14799,14 +16683,427 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1002
-        y: 920
+        x: 750
+        y: 270
         width: 160
         height: 30
-    - id: 80
+    - id: 109
       fields:
       - title: Title
-        value: What the fuck do you want? Link 33
+        value: Eagle|Why do you talk to me like that? What do you want? Link 3
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Why do you talk to me like that? What do you want?
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 109
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 210
+        y: 270
+        width: 160
+        height: 30
+    - id: 110
+      fields:
+      - title: Title
+        value: Ox|... Link 3
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 110
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 390
+        y: 270
+        width: 160
+        height: 30
+    - id: 111
+      fields:
+      - title: Title
+        value: Human|I don't know what riddle means. Link 3
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I don't know what riddle means.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 111
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 570
+        y: 270
+        width: 160
+        height: 30
+    - id: 112
+      fields:
+      - title: Title
+        value: Ox|uhh... Link 4
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: uhh...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 112
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4920
+        width: 160
+        height: 30
+    - id: 113
+      fields:
+      - title: Title
+        value: Lion|JUST FUCKING LET ME GO! Link 4
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: JUST FUCKING LET ME GO!
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 113
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 4970
+        width: 160
+        height: 30
+    - id: 114
+      fields:
+      - title: Title
+        value: Ox|AH! Link 5
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: AH!
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 114
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5020
+        width: 160
+        height: 30
+    - id: 115
+      fields:
+      - title: Title
+        value: Ox|uhh... Link 6
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: uhh...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 115
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5070
+        width: 160
+        height: 30
+    - id: 116
+      fields:
+      - title: Title
+        value: Lion|What the fuck do you want? Link 6
         type: 0
         typeString: 
       - title: Description
@@ -14833,6 +17130,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
       conversationID: 5
       isRoot: 0
       isGroup: 0
@@ -14842,9 +17143,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 5
-        originDialogueID: 80
+        originDialogueID: 116
         destinationConversationID: 5
-        destinationDialogueID: 8
+        destinationDialogueID: 0
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14854,11 +17155,2608 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1254
-        y: 920
+        x: 20
+        y: 5120
         width: 160
         height: 30
-    - id: 81
+    - id: 117
+      fields:
+      - title: Title
+        value: Ox|uhm... Link 7
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: uhm...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 117
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5170
+        width: 160
+        height: 30
+    - id: 118
+      fields:
+      - title: Title
+        value: Lion|Just fucking let me go! Link 7
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Just fucking let me go!
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 118
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5220
+        width: 160
+        height: 30
+    - id: 119
+      fields:
+      - title: Title
+        value: Human|I don't know what riddle means. Link 8
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I don't know what riddle means.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 119
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5270
+        width: 160
+        height: 30
+    - id: 120
+      fields:
+      - title: Title
+        value: Ox|Okay, tell me. Link 8
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Okay, tell me.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 120
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5320
+        width: 160
+        height: 30
+    - id: 121
+      fields:
+      - title: Title
+        value: Human|Okay, but what's a puzzle? Link 9
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Okay, but what's a puzzle?
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 121
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5370
+        width: 160
+        height: 30
+    - id: 122
+      fields:
+      - title: Title
+        value: Ox|uhm... Link 9
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: uhm...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 122
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5420
+        width: 160
+        height: 30
+    - id: 123
+      fields:
+      - title: Title
+        value: Eagle|What if I say no? Link 10
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: What if I say no?
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 123
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5470
+        width: 160
+        height: 30
+    - id: 124
+      fields:
+      - title: Title
+        value: Ox|... Link 10
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 124
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5520
+        width: 160
+        height: 30
+    - id: 125
+      fields:
+      - title: Title
+        value: Human|I don't know what riddle means. Link 10
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I don't know what riddle means.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 125
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5570
+        width: 160
+        height: 30
+    - id: 126
+      fields:
+      - title: Title
+        value: Ox|Okay, tell me. Link 11
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Okay, tell me.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 126
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5620
+        width: 160
+        height: 30
+    - id: 127
+      fields:
+      - title: Title
+        value: Human|I don't know what riddle means. Link 11
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I don't know what riddle means.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 127
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5670
+        width: 160
+        height: 30
+    - id: 128
+      fields:
+      - title: Title
+        value: Eagle|And may I ask who you are? Link 11
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: And may I ask who you are?
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 128
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5720
+        width: 160
+        height: 30
+    - id: 129
+      fields:
+      - title: Title
+        value: Lion|What the fuck do you want? Link 11
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: What the fuck do you want?
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 129
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5770
+        width: 160
+        height: 30
+    - id: 130
+      fields:
+      - title: Title
+        value: Ox|Ok. Link 12
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ok.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 130
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5820
+        width: 160
+        height: 30
+    - id: 131
+      fields:
+      - title: Title
+        value: Eagle|You are a Sphynix, master of riddles and father of terror. Link
+          13
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: You are a Sphynix, master of riddles and father of terror.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 131
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5870
+        width: 160
+        height: 30
+    - id: 132
+      fields:
+      - title: Title
+        value: Eagle|Ok. Link 14
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ok.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 132
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5920
+        width: 160
+        height: 30
+    - id: 133
+      fields:
+      - title: Title
+        value: Human|uhmm... Link 15
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: uhmm...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 133
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 5970
+        width: 160
+        height: 30
+    - id: 134
+      fields:
+      - title: Title
+        value: Ox|What kind of consequences? Link 15
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: What kind of consequences?
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 134
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6020
+        width: 160
+        height: 30
+    - id: 135
+      fields:
+      - title: Title
+        value: Eagle|hmmm... Link 15
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: hmmm...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 135
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6070
+        width: 160
+        height: 30
+    - id: 136
+      fields:
+      - title: Title
+        value: Human|Ok. Link 16
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Ok.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 136
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6120
+        width: 160
+        height: 30
+    - id: 137
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 1) Link 17
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Riddle 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 137
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6170
+        width: 160
+        height: 30
+    - id: 138
+      fields:
+      - title: Title
+        value: ' Human|ermm... Link 17'
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ermm...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 138
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6220
+        width: 160
+        height: 30
+    - id: 139
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Riddle 1) Link 17
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Eagle Riddle 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 139
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6270
+        width: 160
+        height: 30
+    - id: 140
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 1) Link 18
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Riddle 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 140
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6320
+        width: 160
+        height: 30
+    - id: 141
+      fields:
+      - title: Title
+        value: Human|ermm... Link 18
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ermm...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 141
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6370
+        width: 160
+        height: 30
+    - id: 142
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Riddle 1) Link 18
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Eagle Riddle 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 142
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6420
+        width: 160
+        height: 30
+    - id: 143
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 1) Link 19
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Riddle 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 143
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6470
+        width: 160
+        height: 30
+    - id: 144
+      fields:
+      - title: Title
+        value: ' Human|ermm... Link 19'
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ermm...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 144
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6520
+        width: 160
+        height: 30
+    - id: 145
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Riddle 1) Link 19
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Eagle Riddle 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 145
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6570
+        width: 160
+        height: 30
+    - id: 146
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 2) Link 20
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Riddle 2)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 146
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6620
+        width: 160
+        height: 30
+    - id: 147
+      fields:
+      - title: Title
+        value: Human|Okay, I think it's STDs Link 21
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Okay, I think it's STDs
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 147
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6670
+        width: 160
+        height: 30
+    - id: 148
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 1) Link 21
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Riddle 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 148
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6720
+        width: 160
+        height: 30
+    - id: 149
+      fields:
+      - title: Title
+        value: Human|Okay, I think it's STDs Link 22
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Okay, I think it's STDs
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 149
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6770
+        width: 160
+        height: 30
+    - id: 150
+      fields:
+      - title: Title
+        value: Ox|(Ox Riddle 1) Link 22
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Riddle 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 150
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6820
+        width: 160
+        height: 30
+    - id: 151
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Guess 1) Link 22
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Eagle Guess 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 151
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6870
+        width: 160
+        height: 30
+    - id: 152
+      fields:
+      - title: Title
+        value: Human|(Human Guess 2) Link 23
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Human Guess 2)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 152
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6920
+        width: 160
+        height: 30
+    - id: 153
+      fields:
+      - title: Title
+        value: Human|(Human asks riddle) Link 25
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Human asks riddle)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 153
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 6970
+        width: 160
+        height: 30
+    - id: 154
+      fields:
+      - title: Title
+        value: Eagle|(Eagle guess queen) Link 25
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Eagle guess queen)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 154
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7020
+        width: 160
+        height: 30
+    - id: 155
+      fields:
+      - title: Title
+        value: Ox|(Ox Answer Love 1) Link 26
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Answer Love 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 155
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7070
+        width: 160
+        height: 30
+    - id: 156
+      fields:
+      - title: Title
+        value: Human|ermm... Link 26
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: ermm...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 156
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7120
+        width: 160
+        height: 30
+    - id: 157
+      fields:
+      - title: Title
+        value: Ox|(Ox Answer Love 2) Link 27
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Answer Love 2)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 157
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7170
+        width: 160
+        height: 30
+    - id: 158
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Answer Water 1) Link 27
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Eagle Answer Water 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 158
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7220
+        width: 160
+        height: 30
+    - id: 159
+      fields:
+      - title: Title
+        value: Ox|(Ox Answer Love 3) Link 28
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Answer Love 3)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 159
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7270
+        width: 160
+        height: 30
+    - id: 160
+      fields:
+      - title: Title
+        value: Ox|(Ox Announcement) Link 30
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Announcement)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 160
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7320
+        width: 160
+        height: 30
+    - id: 161
       fields:
       - title: Title
         value: Human|(Human Escape 1) Link 31
@@ -14901,7 +19799,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 5
-        originDialogueID: 81
+        originDialogueID: 161
         destinationConversationID: 5
         destinationDialogueID: 0
         isConnector: 0
@@ -14913,13 +19811,485 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1170
-        y: 1120
+        x: 20
+        y: 7370
+        width: 160
+        height: 30
+    - id: 162
+      fields:
+      - title: Title
+        value: Ox|uhm... Link 33
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: uhm...
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 162
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7420
+        width: 160
+        height: 30
+    - id: 163
+      fields:
+      - title: Title
+        value: Lion|What the fuck do you want? Link 33
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: What the fuck do you want?
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 163
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7470
+        width: 160
+        height: 30
+    - id: 164
+      fields:
+      - title: Title
+        value: Ox|(Ox Turnip 1) Link 34
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Turnip 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 164
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7520
+        width: 160
+        height: 30
+    - id: 165
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Turnip 1) Link 34
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Eagle Turnip 1)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 165
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7570
+        width: 160
+        height: 30
+    - id: 166
+      fields:
+      - title: Title
+        value: Ox|(Ox Turnip 2) Link 35
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Ox Turnip 2)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 166
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7620
+        width: 160
+        height: 30
+    - id: 167
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Turnip 2) Link 36
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Eagle Turnip 2)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 167
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7670
+        width: 160
+        height: 30
+    - id: 168
+      fields:
+      - title: Title
+        value: Eagle|(Eagle Turnip 3) Link 39
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Eagle Turnip 3)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 168
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7720
+        width: 160
+        height: 30
+    - id: 169
+      fields:
+      - title: Title
+        value: Human |(Human Escape 2) Link 41
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Human Escape 2)
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 169
+        destinationConversationID: 5
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 7770
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.67550004
+    canvasScrollPosition: {x: 0, y: 124.99221}
+    canvasZoom: 0.1
   - id: 6
     fields:
     - title: Title

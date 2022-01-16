@@ -2,7 +2,7 @@ Unity Editor version:    2021.2.7f1 (6bd9e232123f)
 Branch:                  2021.2/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.2 (Build 21D5025f)
+macOS version:           Version 12.2 (Build 21D5039d)
 Darwin version:          21.3.0
 Architecture:            x86_64
 Running under Rosetta:   NO
@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54051
+49494
 Successfully changed project path to: /Users/chriswilliams/UnityRepo/TheWorld
 /Users/chriswilliams/UnityRepo/TheWorld
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/chriswilliams/UnityRepo/TheWorld
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 68.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,41 +70,41 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56486
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56329
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.7f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001656 seconds.
+Registered in 0.001036 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.670 seconds
+- Completed reload, in  0.672 seconds
 Domain Reload Profiling:
-	ReloadAssembly (670ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (672ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (516ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (524ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (300ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
+				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadAttributes (163ms)
 				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -112,38 +112,38 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003837 seconds.
+Registered in 0.003079 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.460 seconds
+- Completed reload, in  4.728 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2461ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (4729ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (2234ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (4509ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
+			SetupTypeCache (289ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (1682ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (3993ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (65ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (1421ms)
-				ProcessInitializeOnLoadMethodAttributes (113ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (3727ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -152,12 +152,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (43.8 KB). Loaded Objects now: 3896.
-Memory consumption went from 268.2 MB to 268.2 MB.
-Total: 28.145606 ms (FindLiveObjects: 0.288125 ms CreateObjectMapping: 0.226322 ms MarkObjects: 27.527541 ms  DeleteObjects: 0.102197 ms)
+Unloading 46 unused Assets / (44.1 KB). Loaded Objects now: 3896.
+Memory consumption went from 274.0 MB to 273.9 MB.
+Total: 29.274517 ms (FindLiveObjects: 0.334344 ms CreateObjectMapping: 0.208092 ms MarkObjects: 28.635393 ms  DeleteObjects: 0.095284 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,46 +171,69 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 41229.880419 seconds.
-  path: Assets/Editor Default Resources/Dialogue System/DialogueManager Inspector Light.png
-  artifactKey: Guid(a69d5c321f729f1499ac11e52f110452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Dialogue System/DialogueManager Inspector Light.png using Guid(a69d5c321f729f1499ac11e52f110452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587bd76696040593266d1cc3c2c64323') in 0.221760 seconds 
+  Time since last request: 7743.972395 seconds.
+  path: Assets/Resources/Dialog/TWC-Story-Stranger.json
+  artifactKey: Guid(94306f6be6e1d4f12b93c6a7e8b47011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Dialog/TWC-Story-Stranger.json using Guid(94306f6be6e1d4f12b93c6a7e8b47011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31ea5fe9ba3e886cfaefe16249eba85') in 0.354272 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Editor Default Resources/Dialogue System/DialogueManager Inspector Dark.png
-  artifactKey: Guid(da2299cb159f904459216ca87bce9dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Dialogue System/DialogueManager Inspector Dark.png using Guid(da2299cb159f904459216ca87bce9dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c21b883a9c12ea8522c98b39c42a1e') in 0.009038 seconds 
+  Time since last request: 118.996379 seconds.
+  path: Assets/Resources/Dialogue Database.asset
+  artifactKey: Guid(3397025acbe41460fa35f7397921da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Dialogue Database.asset using Guid(3397025acbe41460fa35f7397921da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b80774ee4ee49554b75bdd32453ba44') in 0.221213 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Resources/Default Dialogue UI.prefab
-  artifactKey: Guid(04cb41d2fe195f04a9216359872a2106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Resources/Default Dialogue UI.prefab using Guid(04cb41d2fe195f04a9216359872a2106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449ab0e70a07e4b48bc9921d025c31f') in 0.122874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Circle/Circle Standard Dialogue UI.prefab
-  artifactKey: Guid(adc24357fea057a4884a14c87b85b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Circle/Circle Standard Dialogue UI.prefab using Guid(adc24357fea057a4884a14c87b85b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2336e54e8254c92115877557c7c312') in 0.046225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Dialog_light.png
-  artifactKey: Guid(ea98217a9c10ced489bf5263b0a127e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Dialog_light.png using Guid(ea98217a9c10ced489bf5263b0a127e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f4aef6c9704e46ee4b8b647c5a7bd3') in 0.082323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 73.509006 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic Standard Quest Tracker HUD.prefab
-  artifactKey: Guid(720348da784b8fa49a7c48365da6f1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic Standard Quest Tracker HUD.prefab using Guid(720348da784b8fa49a7c48365da6f1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903c53fdd033597047dd9bb80d34219e') in 0.006757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic Standard Usable UI.prefab
-  artifactKey: Guid(3b6bd600f1610bb4685a5f32959f0fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Templates/Basic/Basic Standard Usable UI.prefab using Guid(3b6bd600f1610bb4685a5f32959f0fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15bf0d0b101f8b55027804192272088') in 0.006997 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2319ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2068ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (1552ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (1352ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (21.9 KB). Loaded Objects now: 3899.
+Memory consumption went from 282.5 MB to 282.5 MB.
+Total: 30.668471 ms (FindLiveObjects: 0.318704 ms CreateObjectMapping: 0.366679 ms MarkObjects: 29.932430 ms  DeleteObjects: 0.049411 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

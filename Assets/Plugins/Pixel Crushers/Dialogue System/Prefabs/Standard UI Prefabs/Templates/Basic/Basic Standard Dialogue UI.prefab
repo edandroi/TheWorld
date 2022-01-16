@@ -3615,7 +3615,7 @@ MonoBehaviour:
   button: {fileID: 11438236}
   label:
     m_uiText: {fileID: 0}
-    m_textMeshProUGUI: {fileID: 0}
+    m_textMeshProUGUI: {fileID: 4415567294234882636}
   setLabelColor: 1
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &165426
